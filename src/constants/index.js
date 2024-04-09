@@ -66,6 +66,10 @@ import {
       icon: javascript,
     },
     {
+      name: "Laravel",
+      icon: laravel,
+    },
+    {
       name: "React JS",
       icon: reactjs,
     },
@@ -78,10 +82,6 @@ import {
       icon: nodejs,
     },
     {
-      name: "Laravel",
-      icon: laravel,
-    },
-    {
       name: "HTML 5",
       icon: html,
     },
@@ -90,16 +90,8 @@ import {
       icon: css,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Java",
       icon: java,
-    },
-    {
-      name: "SQL",
-      icon: sql,
     },
     {
       name: "Angular",
@@ -110,8 +102,12 @@ import {
       icon: spring,
     },
     {
-      name: "git",
-      icon: git,
+      name: "SQL",
+      icon: sql,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
     },
     {
       name: "git",
