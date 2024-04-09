@@ -7,7 +7,8 @@ import {
     html,
     css,
     reactjs,
-    flutter,
+    nextjs,
+    laravel,
     java,
     sql,
     angular,
@@ -61,16 +62,40 @@ import {
   
   const technologies = [
     {
-      name: "Flutter",
-      icon: flutter,
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "Next JS",
+      icon: nextjs,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "Laravel",
+      icon: laravel,
+    },
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
     },
     {
       name: "Java",
       icon: java,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
     },
     {
       name: "SQL",
@@ -85,27 +110,9 @@ import {
       icon: spring,
     },
     {
-      name: "HTML 5",
-      icon: html,
+      name: "git",
+      icon: git,
     },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-  
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-  
     {
       name: "git",
       icon: git,
@@ -115,27 +122,29 @@ import {
   const experiences = [
     {
       title: "Trainee Software Engineer",
-      company_name: "FishiFox",
+      company_name: "iPhonik (Pvt) Ltd",
       icon: iphonik,
       iconBg: "#383E56",
-      date: "August 2022 - Februay 2023",
+      date: "April 2022 - October 2022",
       points: [
-        "Developing and maintaining web applications using MERN Stack and other related technologies.",
+        "Developing and maintaining web applications using Laravel framework and other related technologies.",
         "Industrial trainning for collaborating with product managers, and other developers to create high-quality products.",
-        "Collaborate as a trainee software engineer for a long term running client project (Mobile Application) using Flutter framework",
+        "Collaborate as a trainee software engineer for a long term running client project (Next-Connect) using Laravel framework",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Creating user documents and conducting user trainings.",
       ],
     },
     {
-      title: "Mobile Application Developer Intern",
-      company_name: "Elzian Agro",
+      title: "PHP Developer",
+      company_name: "Rapidventure Business Solutions (Pvt) Ltd",
       icon: rbs,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Apr 2023",
+      date: "Jul 2023 - Jan 2024",
       points: [
-        "Completed the probationary period including Git- version controlling, DevOps and Flutter basics",
+        "Designing and implementing new features in HRM systems.",
         "Industrial trainning for collaborating with product managers, and other developers to create high-quality products.",
-        "Collaborate as a intern mobile application developer for a long term running client project (Mobile Application) using Flutter framework",
+        "Maintaining and optimizing existing codebase.",
+        "Contributing to the adoption of agile methodology.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },

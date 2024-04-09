@@ -14,7 +14,8 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import flutter from "./tech/flutter.png";
+import nextjs from "./tech/nextjs.png";
+import laravel from "./tech/laravel.png";
 import java from "./tech/java.png";
 import sql from "./tech/sql.png";
 import spring from "./tech/spring.png";
@@ -48,8 +49,9 @@ export {
   javascript,
   mongodb,
   nodejs,
+  nextjs,
   reactjs,
-  flutter,
+  laravel,
   java,
   sql,
   spring,
