@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "Flutter Developer",
+      title: "Mobile App Developer",
       icon: mobile,
     },
     {
