@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
+import { ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -54,6 +55,16 @@ const About = () => {
         where I can get immense of learning and development opportunities to
         develop myself.
       </motion.p>
+      <div className="bg-blue-600 hover:bg-blue-700 text-white font-bold rounded max-w-[180px] mt-8 p-2">
+        <a href="/cv/Kavindu_Ushan_Resume.pdf" download>
+          <button className="flex items-center mx-0">
+            <p className="uppercase mr-2">Download CV</p>
+            <span>
+              <ArrowDownTrayIcon className="w-[1.6rem] h-[1.2rem]" />
+            </span>
+          </button>
+        </a>
+      </div>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
