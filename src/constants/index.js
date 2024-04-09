@@ -149,6 +149,16 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
+      "As a trainee software engineer was truly inspiring. His dedication, quick learning, and innovative problem-solving skills greatly contributed to our team's success at iPhonik Pvt Ltd. He consistently demonstrated a strong passion for software development and a willingness to go above and beyond to achieve exceptional results. I highly recommend him for any future endeavors in the field.",
+    name: "Mr. Charith Dilanka",
+    designation: "Software Engineer",
+    company:
+      "iPhonik Pvt Ltd, Sri Lanka",
+    image:
+      "https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/329534765_496575255986731_8106749111960338795_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGoa5UIw5GdskfQPI3xOJwEMG-OGvsq7IAwb44a-yrsgPUT6_jdaiW2U85u3g4jHZWMgi5U-bpRRya5Ca7Dz-JD&_nc_ohc=_JTcbFgahDEAb46wuu5&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfAdlpzU0_0B3QuArm1Rz9ylJXAyd4R_nZm0rAcxNZPh3w&oe=661B53A7",
+  },
+  {
+    testimonial:
       "I had the pleasure of teaching him during their undergraduate studies in software engineering. He stood out as a dedicated and hardworking student who always showed a strong interest in the subject matter.",
     name: "Mr. Nelum Amarasena",
     designation: "Senior Lecturer",
@@ -165,16 +175,6 @@ const testimonials = [
     company: "Rapidventure Business Solutions Pvt Ltd, Sri Lanka",
     image:
       "https://scontent.fcmb2-2.fna.fbcdn.net/v/t1.18169-9/20840680_1787145578244314_3897655469733886265_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE3atWhyzPVX9lfky5Si3tnKB6FjaYPfgcoHoWNpg9-B-_uWyBc-5JipttUR-DIbViLEcFbEUzwIUqjqMoxJBZf&_nc_ohc=2aRdUQX3rnMAb6BJBBD&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfCyBVsk9fCpjDSG3LPKllN-ZFiMraXlP2YwhftD68HJng&oe=663CECD5",
-  },
-  {
-    testimonial:
-      "As a trainee software engineer was truly inspiring. His dedication, quick learning, and innovative problem-solving skills greatly contributed to our team's success at iPhonik Pvt Ltd. He consistently demonstrated a strong passion for software development and a willingness to go above and beyond to achieve exceptional results. I highly recommend him for any future endeavors in the field.",
-    name: "Mr. Charith Dilanka",
-    designation: "Software Engineer",
-    company:
-      "iPhonik Pvt Ltd, Sri Lanka",
-    image:
-      "https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/329534765_496575255986731_8106749111960338795_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGoa5UIw5GdskfQPI3xOJwEMG-OGvsq7IAwb44a-yrsgPUT6_jdaiW2U85u3g4jHZWMgi5U-bpRRya5Ca7Dz-JD&_nc_ohc=_JTcbFgahDEAb46wuu5&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfAdlpzU0_0B3QuArm1Rz9ylJXAyd4R_nZm0rAcxNZPh3w&oe=661B53A7",
   },
 ];
 
