@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles.js";
 import { ComputersCanvas } from "./canvas";
+import TextEffect from "./TextEffect.jsx";
 
 const Hero = () => {
   return (
@@ -27,7 +28,8 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Kavindu</span>
           </h1>
           <p className={`${styles.heroSubText} mt-1 text-white-100`}>
-            A Software Engineering undergraduate
+            {/* A Software Engineering undergraduate */}
+            <TextEffect />
             <br />
           </p>
         </div>
