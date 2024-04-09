@@ -15,8 +15,8 @@ import {
     nodejs,
     mongodb,
     git,
-    fishifox,
-    elzian,
+    iphonik,
+    rbs,
     CardDetails,
     HelpingHands,
     ProjectSupreme,
@@ -116,7 +116,7 @@ import {
     {
       title: "Trainee Software Engineer",
       company_name: "FishiFox",
-      icon: fishifox,
+      icon: iphonik,
       iconBg: "#383E56",
       date: "August 2022 - Februay 2023",
       points: [
@@ -129,7 +129,7 @@ import {
     {
       title: "Mobile Application Developer Intern",
       company_name: "Elzian Agro",
-      icon: elzian,
+      icon: rbs,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Apr 2023",
       points: [
