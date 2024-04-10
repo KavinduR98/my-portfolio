@@ -1,5 +1,5 @@
 import {
-  mobile,
+  freelancer,
   backend,
   creator,
   web,
@@ -36,6 +36,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -47,8 +51,8 @@ const services = [
     icon: web,
   },
   {
-    title: "Mobile App Developer",
-    icon: mobile,
+    title: "Freelance Developer",
+    icon: freelancer,
   },
   {
     title: "Fullstack Developer",
