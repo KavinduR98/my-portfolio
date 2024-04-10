@@ -18,12 +18,12 @@ import {
   git,
   iphonik,
   rbs,
-  CardDetails,
+  CarLand,
+  CustomerSupport,
+  DigitalBlog,
   HelpingHands,
-  ProjectSupreme,
-  AdminDashboard,
-  Charity,
-  Boost,
+  RealEstate,
+  TravelWebsite,
 } from "../assets";
 
 export const navLinks = [
@@ -180,26 +180,89 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Project Supreme",
+    name: "Real-Estate-Marketplace",
     description:
-      "Online research project management tool using MERN stack. Hosted in Heroku and Netlify. This project includes functinalities related to the supervisor.",
+      "PrimeEstate is a dynamic web application built on the powerful MERN stack, seamlessly integrating MongoDB, Express.js, React, and Node.js. With sleek design elements crafted using Tailwind CSS, this Real Estate App offers a user-friendly experience for browsing properties.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
       {
         name: "MERN Stack",
         color: "pink-text-gradient",
       },
+      {
+        name: "tailwind CSS",
+        color: "gray-text-gradient",
+      },
+      
     ],
-    image: ProjectSupreme,
-    source_code_link: "https://github.com/ProjectSupremeAF/ProSupreme",
+    image: RealEstate,
+    source_code_link: "https://github.com/KavinduR98/Real-Estate-Marketplace",
   },
+  {
+    name: "Car Land Rentals",
+    description:
+      "Discover the ultimate car destination! Our website, powered by Next.js, Tailwind CSS, and Framer Motion, brings you the latest in automotive excitement. Explore seamlessly with sleek design and captivating animations.🚗💨",
+    tags: [
+      {
+        name: "Next JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: CarLand,
+    source_code_link:
+      "https://github.com/KavinduR98/Car-Land-Website",
+  },
+  {
+    name: "Beaches-travel-website",
+    description:
+      "Introducing BEACHES: Your gateway to the world of travel, built with ReactJS. Explore stunning destinations and plan your next adventure effortlessly. Dive into a seamless user experience with our static website.",
+    tags: [
+      {
+        name: "React Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "responsive",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: TravelWebsite,
+    source_code_link: "https://github.com/KavinduR98/travel-website",
+  },
+  {
+    name: "Customer Supprt Desk ",
+    description:
+      "Online Support System is a web application which helps service providers and sellers to provide after-sales support for their customers. Customers are allowed to open a ticket when they need assistance on something related to the product or service they purchased. Support agents get in contact with the ticket owner to help resolve their issues.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "red-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: CustomerSupport,
+    source_code_link:
+      "https://github.com/KavinduR98/customer_support_desk",
+  },
+
   {
     name: "Helping Hands",
     description:
@@ -222,90 +285,21 @@ const projects = [
     source_code_link: "https://github.com/Helping-Hands-Charity/Helping-Hands",
   },
   {
-    name: "Card Details",
+    name: "Digital Blog",
     description:
-      "This is my first project using ASP .NET Core with Angular. This contains really simple single page CRUD function. This is not much. But, as a begginner, I'm happy. 😊 ",
+      "DigitalBlog is a web application built using the MERN stack, which stands for MongoDB, Express.js, React, and Node.js. It allows users to create and publish blog posts with rich text formatting, images, and tags. Users can also browse and search for other posts, like and comment on posts.",
     tags: [
       {
-        name: "C#",
+        name: "MERN Stack",
         color: "blue-text-gradient",
       },
       {
-        name: "ASP .NET Core",
+        name: "REST API",
         color: "green-text-gradient",
       },
-      {
-        name: "Angular",
-        color: "pink-text-gradient",
-      },
     ],
-    image: CardDetails,
-    source_code_link:
-      "https://github.com/ChathraNavoda/CardDetails-CRUD-Application",
-  },
-  {
-    name: "Admin Dashboard",
-    description:
-      "A responsive Admin Dashboard using React Js, Tailwind CSS. This facilitates to change themes also. This is my first project using Tailwind CSS",
-    tags: [
-      {
-        name: "React Js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "responsive",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: AdminDashboard,
-    source_code_link: "https://github.com/ChathraNavoda/Dashboard-App",
-  },
-  {
-    name: "Helping Hands Mobile",
-    description:
-      "This is the mobile version of Helping Hands Charity program managemnt system. This project is basically considered about UI/UX. This project is developed using Flutter. ",
-    tags: [
-      {
-        name: "Flutter",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "ui/ux",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Charity,
-    source_code_link:
-      "https://github.com/Helping-Hands-Charity/Helping-Hands-Mobile",
-  },
-  {
-    name: "BoostMe",
-    description:
-      "This is a fitness application using Flutter, Firebase. This app contains Social media feature, Workout tracker, Yoga tracker, Calorie tracker, BMI Cal and Reminder.",
-    tags: [
-      {
-        name: "Flutter",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "realtime db",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Boost,
-    source_code_link: "https://github.com/BoostMe-Fitness-App/boostMe_mobile",
+    image: DigitalBlog,
+    source_code_link: "https://github.com/KavinduR98/DigitalBlog",
   },
 ];
 

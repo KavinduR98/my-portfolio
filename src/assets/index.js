@@ -26,12 +26,12 @@ import threejs from "./tech/threejs.svg";
 import iphonik from "./company/iphonik.png";
 import rbs from "./company/rbs.png";
 
-import CardDetails from "./CardDetails.png";
-import HelpingHands from "./HelpingHands.png";
-import ProjectSupreme from "./ProjectSupreme.jpg";
-import AdminDashboard from "./AdminDashboard.png";
-import Charity from "./Charity.png";
-import Boost from "./Boost.jpg";
+import CarLand from "./car_land.png";
+import CustomerSupport from "./customer_support.png";
+import DigitalBlog from "./digital_blog.png";
+import HelpingHands from "./helping_hands.png";
+import RealEstate from "./real_estate.png";
+import TravelWebsite from "./travel_website.png";
 
 export {
   logo,
@@ -61,9 +61,9 @@ export {
   iphonik,
   rbs,
   HelpingHands,
-  CardDetails,
-  ProjectSupreme,
-  AdminDashboard,
-  Charity,
-  Boost,
+  CarLand,
+  CustomerSupport,
+  RealEstate,
+  TravelWebsite,
+  DigitalBlog,
 };
