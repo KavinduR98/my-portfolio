@@ -16,7 +16,7 @@ const TextEffect = () => {
         1500
       ]}
       speed={50}
-      style={{fontWeight: "bold", fontSize: '1.5em', display: 'inline-block', color: "#2dfc5a"}}
+      style={{fontWeight: "semi-bold", fontSize: '1.5em', display: 'inline-block', color: "#fff"}}
       repeat={Infinity}
     />
   );

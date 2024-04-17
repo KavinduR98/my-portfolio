@@ -28,8 +28,8 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Kavindu</span>
           </h1>
           <p className={`${styles.heroSubText} mt-1 text-white-100 font-semibold`}>
-            PASSIONATE FULLSTACK DEVELOPER
-            {/* <TextEffect /> */}
+            {/* PASSIONATE FULLSTACK DEVELOPER */}
+            <TextEffect />
             <br />
           </p>
         </div>
